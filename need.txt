@@ -1,1 +1,4 @@
 
+<connectionStrings>
+    <add name="EmployeeContext" providerName="Oracle.ManagedDataAccess.Client" connectionString="User Id=test;Password=test;Data Source=//localhost:1521/ORCL" />
+  </connectionStrings>
