@@ -2,3 +2,8 @@
 <connectionStrings>
     <add name="EmployeeContext" providerName="Oracle.ManagedDataAccess.Client" connectionString="User Id=test;Password=test;Data Source=//localhost:1521/ORCL" />
   </connectionStrings>
+  
+  protected override void OnModelCreating(DbModelBuilder modelBuilder)
+        {
+            modelBuilder.HasDefaultSchema("TEST");
+        }
